@@ -1,8 +1,8 @@
 //Javascript 30 Classes
 
-const hero = document.querySelector('.hero')
-const text = document.querySelector('h1')
-const walk = 500 //shadow movement 500px
+const hero = document.querySelector('.hero');
+const text = document.querySelector('h1');
+const walk = 500; //shadow movement 500px
 
 function shadow(e) {
   const { offsetWidth: width, offsetHeight: height } = hero;
